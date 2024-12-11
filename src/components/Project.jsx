@@ -3,9 +3,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import projectOne from "../assets/images/project-1.png";
 import projectTwo from "../assets/images/project-2.png";
 import projectThree from "../assets/images/project-3.png";
-import projectFour from "../assets/images/project-4.png";
-import projectSix from "../assets/images/project-6.png"; 
-import projectSeven from "../assets/images/project-7.png";
+import mentalmilestone from "../assets/images/mentalmilestone.png";
+import Se from "../assets/images/Se.png"; 
+import Speecho from "../assets/images/Speecho.png";
 import { Pagination, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -13,42 +13,42 @@ import "swiper/css/pagination";
 const Project = () => {
   const projects = [
     {
-      img: projectTwo,
-      name: "Netflix Clone",
-      github_link: "https://github.com/aryyan0701/Netflix_Clone",
+      img: Se,
+      name: "Image Search Engiene",
+      github_link: "https://github.com/GaganNk127/Search-Engiene",
       //live_link: "https://myjobsearch.netlify.app",
     },
     {
-      img: projectOne,
-      name: "Type Verse (Check your typing speed)",
-      github_link: "https://github.com/aryyan0701/type_verse",
-      live_link: "https://aryyan0701.github.io/type_verse/",
+      img: Speecho,
+      name: "Text To Voice",
+      github_link: "https://github.com/GaganNk127/Text-to-Voice",
+      // live_link: "https://aryyan0701.github.io/type_verse/",
     },
        {
-      img: projectThree,
-      name: "Currency converter",
-      github_link: "https://github.com/aryyan0701/Currency_converter",
+      img: mentalmilestone,
+      name: "Mental MileStone",
+      github_link: "https://github.com/GaganNk127/milestones",
      // live_link: "https://highking01.netlify.app",
     },
-    {
-      img: projectFour,
-      name: "Quizzify",
-      github_link:
-        "https://github.com/aryyan0701/Quizzify",
-      live_link: "https://quizzad.netlify.app/",
-    },
-    {
-      img: projectSix,
-      name: "Bloggify",
-      github_link: "https://github.com/aryyan0701/Bloggify",
-      live_link: "https://aryyan0701.github.io/Bloggify/",
-    },
-    {
-      img: projectSeven,
-      name: "Sandbox Clone",
-      github_link: "https://github.com/aryyan0701/sandbox_clone",
-     live_link: "https://aryyan0701.github.io/sandbox_clone/",
-    },
+    // {
+    //   img: projectFour,
+    //   name: "Quizzify",
+    //   github_link:
+    //     "https://github.com/aryyan0701/Quizzify",
+    //   // live_link: "https://quizzad.netlify.app/",
+    // },
+    // {
+    //   img: projectSix,
+    //   name: "Bloggify",
+    //   github_link: "https://github.com/aryyan0701/Bloggify",
+    //   // live_link: "https://aryyan0701.github.io/Bloggify/",
+    // },
+    // {
+    //   img: projectSeven,
+    //   name: "Sandbox Clone",
+    //   github_link: "https://github.com/aryyan0701/sandbox_clone",
+    //  live_link: "https://aryyan0701.github.io/sandbox_clone/",
+    // },
   ];
   return (
     <section id="projects" className="py-20 text-white">
@@ -91,13 +91,13 @@ const Project = () => {
                     >
                       Github
                     </a>
-                    <a
+                    {/* <a
                       href={project_info.live_link}
                       target="_blank"
                       className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
                     >
                       Live
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </SwiperSlide>

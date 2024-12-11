@@ -4,19 +4,18 @@ const Education = () => {
   const educationDetails = [
     {
       logo: "logo-arrow",
-      degree: 'Bachelor of Technology in Information Technology',
-      institution: 'Bhgawan Mahavir University, Surat',
-      grades: 'CGPA: 7.58',
+      degree: 'Master of Application',
+      institution: 'PES University, Bengaluru',
+      grades: 'NA',
+      year: ' [2024-present]',
+      desc: "I am currently pursuing a Masters in Computer Application in PES Univesrsity in Bengaluru, Karnataka .",
+    },{
+      logo: "logo-arrow",
+      degree: 'Bachelors Of Computer Application',
+      institution: 'Gogte College of Commerce ,Belgaum',
+      grades: 'CGPA: 8.98',
       year: ' [2021-present]',
-      desc: "I am currently pursuing a Bachelor's degree in Infromation technology at Bhgawan Mahavir University, Surat, Gujarat. I have completed 5 semesters and have a CGPA of 7.58.",
-    },
-    {
-      logo: "logo-play",
-      degree: 'GSEB(XII)-HSC',
-      institution: 'Bhaktashram Ashramshala, Navsari',
-      grades: 'Grade: 70.1% ',
-      year: ' [2020-2021]',
-      desc: "I completed my class 12 high school education at Bhaktashram Ashramshala, Navsari, where I studied Science with PCM.",       
+      desc: "I have Complete my Bachelors in Computer Application from Gogte College of Commerce in belgaum.",
     },
   ];
 

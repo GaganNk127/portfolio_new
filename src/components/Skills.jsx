@@ -27,18 +27,18 @@ const Skills = () => {
       level: "Intermediate",
       count: 60,
     },
-    {
-      name:"ANGULAR",
-      logo:"logo-angular",
-      level: "Beginner",
-      count:50,
-    },
-    {
-      name:"FIREBASE",
-      logo: "logo-firebase",
-     level: "Beginner",
-      count: 40,
-    },
+    // {
+    //   name:"ANGULAR",
+    //   logo:"logo-angular",
+    //   level: "Beginner",
+    //   count:50,
+    // },
+    // {
+    //   name:"FIREBASE",
+    //   logo: "logo-firebase",
+    //  level: "Beginner",
+    //   count: 40,
+    // },
     {
       name:"NODE JS",
       logo: "logo-nodejs",

@@ -7,7 +7,7 @@ const About = () => {
   ];
 
  
-  const googleDriveLink = "https://drive.google.com/file/d/1OzuOrRm0Rn9g7xwO6RUO9zUZHkvxFjtr/view?usp=drivesdk";
+  const googleDriveLink = "https://drive.google.com/file/d/15MRxB2EE4ylv1-xS8jxKG1cgAEu3hxg1/view?usp=drive_link";
 
 
   const navigateToResume = () => {
@@ -25,13 +25,13 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
-              I am currently pursuing b.tech in IT, As a Developer specializing in web development With hands-on experience in crafting dynamic user interfaces, I bring a blend of creativity and technical expertise to my role.
-                <br />Having secured an internship as a Frontend Developer at a reputable company, I've dived headfirst into Angular development, harnessing the power of Bootstrap for responsive and visually appealing designs. Additionally, my journey has acquainted me with Node.js, empowering me to contribute to server-side functionalities as well.
-                <br />
-                Beyond Angular, I possess a versatile skill set. I am proficient in javascript, TypeScript, React.js, Bootstrap, Firebase, and GitHub, ensuring that I am well-equipped to adapt to diverse project requirements.
-                <br /> My focus lies in delivering exceptional user experiences through intuitive and scalable UI components.I have honed my skills in crafting impressive user interfaces, ensuring seamless navigation and optimal performance across devices.
+              I am currently pursuing MCA in Pes University, As a Developer specializing in web development With hands-on experience in crafting dynamic user interfaces, I bring a blend of creativity and technical expertise to my role.
+                {/* <br />Having secured an internship as a Frontend Developer at a reputable company, I've dived headfirst into Angular development, harnessing the power of Bootstrap for responsive and visually appealing designs. Additionally, my journey has acquainted me with Node.js, empowering me to contribute to server-side functionalities as well.
+                <br /> */}
+                I specialize in MERN stack development, combining my skills in UI/UX design, frontend frameworks, and backend development to build dynamic web applications.
+                <br /> I am also enthusiastic about Data Structures & Algorithms, constantly improving my problem-solving abilities. When I'm not coding, you can find me cycling or working out to stay active and balanced.
               </p>
-              <div className="flex mt-10 items-center gap-7">
+              {/* <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (
                   <div key={content.text}>
                     <h3 className="md:text-4xl text-2xl font-semibold text-white">
@@ -41,7 +41,7 @@ const About = () => {
                     <span className="md:text-base text-xs">{content.text}</span>
                   </div>
                 ))}
-              </div>
+              </div> */}
               <br />
               <br />
               <button className="btn-primary" onClick={navigateToResume}>Check Resume</button>
