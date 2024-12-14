@@ -14,7 +14,7 @@ const Project = () => {
   const projects = [
     {
       img: Se,
-      name: "Image Search Engiene",
+      name: "Image Search Engine",
       github_link: "https://github.com/GaganNk127/Search-Engiene",
       //live_link: "https://myjobsearch.netlify.app",
     },
