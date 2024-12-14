@@ -14,7 +14,7 @@ const Education = () => {
       degree: 'Bachelors Of Computer Application',
       institution: 'Gogte College of Commerce ,Belgaum',
       grades: 'CGPA: 8.98',
-      year: ' [2021-present]',
+      year: ' [2021-2024]',
       desc: "I have Complete my Bachelors in Computer Application from Gogte College of Commerce in belgaum.",
     },
   ];
