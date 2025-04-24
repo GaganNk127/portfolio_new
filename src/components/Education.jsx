@@ -6,7 +6,7 @@ const Education = () => {
       logo: "logo-arrow",
       degree: 'Master of Application',
       institution: 'PES University, Bengaluru',
-      grades: 'NA',
+      grades: '9.00 CGPA',
       year: ' [2024-present]',
       desc: "I am currently pursuing a Masters in Computer Application in PES Univesrsity in Bengaluru, Karnataka .",
     },{
